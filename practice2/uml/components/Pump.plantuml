@@ -1,0 +1,22 @@
+@startuml
+
+class Pump:
+{
+    +energy: string
+    +type: string
+    +name: 设备名称
+    +inNode: 泵入口节点名称
+    +outNode: 泵出口节点名称
+    +ef: 泵效率
+    +iNode: 入口节点参数
+    +oNode: 出口节点参数
+    +workRequired: 耗功量（kJ/kg）
+    +WRequired: 功率（MW）
+    +__init__(): 初始化
+    +state(): 状态参数计算
+    +balance(): 平衡计算
+    +sm_energy(): 功率计算
+    +__str__(): 结果输出
+}
+
+@enduml

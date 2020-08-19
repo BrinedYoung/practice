@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="276px" preserveAspectRatio="none" style="width:182px;height:276px;" version="1.1" viewBox="0 0 182 276" width="182px" zoomAndPan="magnify"><defs><filter height="300%" id="f1grlb8mxr4uih" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[d084016dec45b05e54854d7fba2405e7]
+class Boiler:--><rect fill="#FEFECE" filter="url(#f1grlb8mxr4uih)" height="258.3213" id="Boiler:" style="stroke: #A80036; stroke-width: 1.5;" width="164" x="7" y="7"/><ellipse cx="67.25" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M65.8281,28.3594 Q63.9688,28.3594 62.875,26.9688 Q61.7813,25.5781 61.7813,22.5938 Q61.7813,20.0625 62.9453,18.4063 Q64.1094,16.75 66.0938,16.75 Q67.5625,16.75 68.0313,16.875 Q68.5,17.0781 68.5,17.0781 Q68.5,17.0781 68.5,17.0078 Q68.5,16.9375 69.1094,16.0156 L70.1563,19.6719 L68.8281,20.0781 Q68.3594,18.5313 67.6953,17.8672 Q67.0313,17.2031 65.9688,17.2031 Q65.5781,17.2031 64.8125,18.7344 Q64.0469,20.2656 64.0469,22.5156 Q64.0469,24.9844 64.7109,26.375 Q65.375,27.7656 65.9063,27.7656 Q66.9688,27.7656 67.7266,27 Q68.4844,26.2344 68.8281,24.5781 L70.1563,25.1719 Q69.8281,26.5781 68.9297,27.4688 Q68.0313,28.3594 65.8281,28.3594 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="35" x="87.75" y="28.5576">Boiler:</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="170" y1="39" y2="39"/><ellipse cx="18" cy="50" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="67" x="27" y="55.606">energy: string</text><ellipse cx="18" cy="65.0229" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="54" x="27" y="70.6289">type: string</text><ellipse cx="18" cy="80.0459" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="76" x="27" y="85.6519">name: 设备名称</text><ellipse cx="18" cy="95.0688" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="127" x="27" y="100.6748">inNode: 锅炉入口节点名称</text><ellipse cx="18" cy="110.0918" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="134" x="27" y="115.6978">outNode: 锅炉出口节点名称</text><ellipse cx="18" cy="125.1147" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="99" x="27" y="130.7207">iNode: 入口节点参数</text><ellipse cx="18" cy="140.1377" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="103" x="27" y="145.7437">oNode: 出口节点参数</text><ellipse cx="18" cy="155.1606" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="138" x="27" y="160.7666">heatAdded: 吸热量（kJ/kg）</text><ellipse cx="18" cy="170.1836" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="130" x="27" y="175.7896">QAdded: 吸热功率（MW）</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="170" y1="182.2065" y2="182.2065"/><ellipse cx="18" cy="193.2065" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="84" x="27" y="198.8125">__init__(): 初始化</text><ellipse cx="18" cy="208.2295" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="104" x="27" y="213.8354">state(): 状态参数计算</text><ellipse cx="18" cy="223.2524" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="96" x="27" y="228.8584">balance(): 平衡计算</text><ellipse cx="18" cy="238.2754" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="112" x="27" y="243.8813">sm_energy(): 功率计算</text><ellipse cx="18" cy="253.2983" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="95" x="27" y="258.9043">__str__(): 结果输出</text><!--MD5=[368f330105c84a05a793963416bca791]
+@startuml
+
+class Boiler:
+{
+    +energy: string
+    +type: string
+    +name: 设备名称
+    +inNode: 锅炉入口节点名称
+    +outNode: 锅炉出口节点名称
+    +iNode: 入口节点参数
+    +oNode: 出口节点参数
+    +heatAdded: 吸热量（kJ/kg）
+    +QAdded: 吸热功率（MW）
+    +__init__(): 初始化
+    +state(): 状态参数计算
+    +balance(): 平衡计算
+    +sm_energy(): 功率计算
+    +__str__(): 结果输出
+}
+
+@enduml
+
+PlantUML version 1.2020.10(Sun May 17 17:35:57 CST 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.7.0_65-b20
+Operating System: Windows 8.1
+Default Encoding: GBK
+Language: zh
+Country: CN
+--></g></svg>

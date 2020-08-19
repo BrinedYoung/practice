@@ -1,0 +1,181 @@
+{
+    "name": "Rankine86",
+    "nodes": [
+        {
+            "name": "Main Steam To HP",
+            "id": 0,
+            "p": 8.0,
+            "t": 480.0,
+            "x": null,
+            "fdot": 1
+        },
+        {
+            "name": "Extra Steam HP To HH",
+            "id": 1,
+            "p": 2.0,
+            "t": null,
+            "x": 1,
+            "fdot": null
+        },
+        {
+            "name": "Exhau Steam HP To RH",
+            "id": 2,
+            "p": 0.7,
+            "t": null,
+            "x": null,
+            "fdot": null
+        },
+        {
+            "name": "RH Steam To LP",
+            "id": 3,
+            "p": 0.7,
+            "t": 440,
+            "x": 1,
+            "fdot": null
+        },
+        {
+            "name": "Extra Steam LP To LH",
+            "id": 4,
+            "p": 0.3,
+            "t": null,
+            "x": 1,
+            "fdot": null
+        },
+        {
+            "name": "Exhau Steam LP To Cd",
+            "id": 5,
+            "p": 0.008,
+            "t": null,
+            "x": null,
+            "fdot": null
+        },
+        {
+            "name": "CdWater To CdPump",
+            "id": 6,
+            "p": 0.008,
+            "t": null,
+            "x": 0,
+            "fdot": null
+        },
+        {
+            "name": "CdPump To LH",
+            "id": 7,
+            "p": 0.3,
+            "t": null,
+            "x": 0,
+            "fdot":null
+        },
+        {
+            "name":"LH To FwPump",
+            "id": 8,
+            "p": 0.3,
+            "t": null,
+            "x": 0,
+            "fdot": null
+        },
+        {
+            "name":"Fw Pump To HH",
+            "id": 9,
+            "p": 8.0,
+            "t": null,
+            "x": 0,
+            "fdot": null
+        },
+        {
+            "name":"HH To Boiler",
+            "id": 10,
+            "p": 8.0,
+            "t": 205,
+            "x": 0,
+            "fdot": null
+        },
+        {
+            "name":"HH Drain To Trap",
+            "id": 11,
+            "p": 2.0,
+            "t": null,
+            "x": 0,
+            "fdot": null
+        },
+        {
+            "name":"Trap To LH",
+            "id": 12,
+            "p": 0.3,
+            "t": null,
+            "x": null,
+            "fdot": null
+        }
+    ],
+    "comps": [
+        {
+            "name": "Boiler1",
+            "type": "BOILER",
+            "inNode": 10,
+            "outNode": 0
+        },
+        {
+            "name": "HP Turbine",
+            "type": "TURBINE-86",
+            "ef": 1.0,
+            "inNode": 0,
+            "outNode": 2,
+            "extNode": 1
+        },
+        {
+            "name": "Reheater",
+            "type": "REHEATER",
+            "inNode": 2,
+            "outNode": 3
+        },
+        {
+            "name": "LP Turbine",
+            "type": "TURBINE-86",
+            "ef": 1.0,
+            "inNode": 3,
+            "outNode": 5,
+            "extNode": 4
+        },
+        {
+            "name": "Condenser",
+            "type": "CONDENSER",
+            "inNode": 5,
+            "outNode": 6
+        },
+        {
+            "name": "Condensate Pump",
+            "type": "PUMP",
+            "ef": 1.0,
+            "inNode": 6,
+            "outNode": 7
+        },
+        {
+            "name": "LP Feedwater Heater",
+            "type": "LP-FWH",
+            "inNode": 4,
+            "inNode_fw": 7,
+            "inNode_trap": 12,
+            "outNode_fw": 8
+        },
+        {
+            "name": "Feedwater Pump",
+            "type": "PUMP",
+            "ef": 1.0,
+            "inNode": 8,
+            "outNode": 9
+        },
+        {
+            "name": "HP Feedwater Heater",
+            "type": "HP-FWH",
+            "inNode": 1,
+            "inNode_fw": 9,
+            "outNode_trap": 11,
+            "outNode_fw": 10
+        },
+        {
+            "name": "Trap",
+            "type": "TRAP",
+            "inNode": 11,
+            "outNode": 12
+        }
+    ]
+}

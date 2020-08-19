@@ -1,0 +1,31 @@
+@startuml
+
+class Lpfwh:
+{
+    +energy: string
+    +type: string
+    +name: 设备名称
+    +inNode_fw: 开式加热器入口节点名称
+    +outNode_fw: 开式加热器出口节点名称
+    +inNode: 汽轮机流入开式加热器节点名称
+    +outNode_trap: 阀门流入开式加热器节点名称
+    +iNode_fw: 开式加热器入口节点参数
+    +oNode_fw: 开式加热器出口节点参数
+    +iNode: 汽轮机流入闭式加热器节点参数
+    +oNode_trap: 阀门流入开式加热器节点参数
+    +heatAdded: 吸热量（kJ/kg）
+    +heatExtracted: 放热量（kJ/kg）
+    +heatExtracted_s: 回热工质放热量（kJ/kg)
+    +heatExtracted_d: 阀门工质放热量（kJ/kg)
+    +QAdded: 吸热功率（MW）
+    +QExtracted: 放热功率（MW）
+    +QExtracted_s: 回热工质放热功率（MW）
+    +QExtracted_d: 阀门工质放热功率（MW）
+    +__init__(): 初始化
+    +state(): 状态参数计算
+    +balance(): 平衡计算
+    +sm_energy(): 功率计算
+    +__str__(): 结果输出
+}
+
+@enduml

@@ -1,0 +1,27 @@
+@startuml
+
+class Node:
+{
+    +title
+    +name: 过程名称
+    +id: 编号
+    +p: 压力（MPa）
+    +t: 温度（°C）
+    +x: 干度
+    +fdot: 流量份额
+    +mdot: 质量流量（kg/h）
+    +h: 比焓（kJ/kg）
+    +s: 比熵（kJ/kg*K）
+    +v: 比容（m^3/kg）
+    +__init__(): 初始化
+    +calmdot(): 计算质量流量
+    +pt(): 已知p，t求出剩余参数
+    +ph(): 已知p，h求出剩余参数
+    +ps(): 已知p，s求出剩余参数
+    +hs(): 已知h，s求出剩余参数
+    +px(): 已知p，x求出剩余参数
+    +tx(): 已知t，x求出剩余参数
+    +__str__(): 结果输出
+}
+
+@enduml

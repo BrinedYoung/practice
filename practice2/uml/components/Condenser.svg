@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="276px" preserveAspectRatio="none" style="width:196px;height:276px;" version="1.1" viewBox="0 0 196 276" width="196px" zoomAndPan="magnify"><defs><filter height="300%" id="f1lil5xbaa9389" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[2b9dc2d465483200fe8afeaa278191bf]
+class Condenser:--><rect fill="#FEFECE" filter="url(#f1lil5xbaa9389)" height="258.3213" id="Condenser:" style="stroke: #A80036; stroke-width: 1.5;" width="178" x="7" y="7"/><ellipse cx="59.25" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M57.8281,28.3594 Q55.9688,28.3594 54.875,26.9688 Q53.7813,25.5781 53.7813,22.5938 Q53.7813,20.0625 54.9453,18.4063 Q56.1094,16.75 58.0938,16.75 Q59.5625,16.75 60.0313,16.875 Q60.5,17.0781 60.5,17.0781 Q60.5,17.0781 60.5,17.0078 Q60.5,16.9375 61.1094,16.0156 L62.1563,19.6719 L60.8281,20.0781 Q60.3594,18.5313 59.6953,17.8672 Q59.0313,17.2031 57.9688,17.2031 Q57.5781,17.2031 56.8125,18.7344 Q56.0469,20.2656 56.0469,22.5156 Q56.0469,24.9844 56.7109,26.375 Q57.375,27.7656 57.9063,27.7656 Q58.9688,27.7656 59.7266,27 Q60.4844,26.2344 60.8281,24.5781 L62.1563,25.1719 Q61.8281,26.5781 60.9297,27.4688 Q60.0313,28.3594 57.8281,28.3594 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="65" x="79.75" y="28.5576">Condenser:</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="184" y1="39" y2="39"/><ellipse cx="18" cy="50" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="67" x="27" y="55.606">energy: string</text><ellipse cx="18" cy="65.0229" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="54" x="27" y="70.6289">type: string</text><ellipse cx="18" cy="80.0459" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="76" x="27" y="85.6519">name: 设备名称</text><ellipse cx="18" cy="95.0688" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="138" x="27" y="100.6748">inNode: 冷凝器入口节点名称</text><ellipse cx="18" cy="110.0918" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="145" x="27" y="115.6978">outNode: 冷凝器出口节点名称</text><ellipse cx="18" cy="125.1147" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="99" x="27" y="130.7207">iNode: 入口节点参数</text><ellipse cx="18" cy="140.1377" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="103" x="27" y="145.7437">oNode: 出口节点参数</text><ellipse cx="18" cy="155.1606" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="152" x="27" y="160.7666">heatExtracted: 放热量（kJ/kg）</text><ellipse cx="18" cy="170.1836" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="144" x="27" y="175.7896">QExtracted: 放热功率（MW）</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="184" y1="182.2065" y2="182.2065"/><ellipse cx="18" cy="193.2065" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="84" x="27" y="198.8125">__init__(): 初始化</text><ellipse cx="18" cy="208.2295" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="104" x="27" y="213.8354">state(): 状态参数计算</text><ellipse cx="18" cy="223.2524" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="96" x="27" y="228.8584">balance(): 平衡计算</text><ellipse cx="18" cy="238.2754" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="112" x="27" y="243.8813">sm_energy(): 功率计算</text><ellipse cx="18" cy="253.2983" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="95" x="27" y="258.9043">__str__(): 结果输出</text><!--MD5=[f64ab22471537a6f5cf0108861866987]
+@startuml
+
+class Condenser:
+{
+    +energy: string
+    +type: string
+    +name: 设备名称
+    +inNode: 冷凝器入口节点名称
+    +outNode: 冷凝器出口节点名称
+    +iNode: 入口节点参数
+    +oNode: 出口节点参数
+    +heatExtracted: 放热量（kJ/kg）
+    +QExtracted: 放热功率（MW）
+    +__init__(): 初始化
+    +state(): 状态参数计算
+    +balance(): 平衡计算
+    +sm_energy(): 功率计算
+    +__str__(): 结果输出
+}
+
+@enduml
+
+PlantUML version 1.2020.10(Sun May 17 17:35:57 CST 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.7.0_65-b20
+Operating System: Windows 8.1
+Default Encoding: GBK
+Language: zh
+Country: CN
+--></g></svg>
